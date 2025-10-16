@@ -1,0 +1,13 @@
+services:
+    steve.quickreplyextended.listener:
+        class: steve\quickreplyextended\event\main_listener
+        arguments:
+            - '@auth'
+            - '@config'
+            - '@language'
+            - '@controller.helper'
+            - '@template'
+            - '%core.php_ext%'
+            - '%core.root_path%'
+        tags:
+            - { name: event.listener }

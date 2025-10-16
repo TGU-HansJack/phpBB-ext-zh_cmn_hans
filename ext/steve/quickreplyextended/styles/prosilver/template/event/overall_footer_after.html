@@ -1,0 +1,13 @@
+{% if S_QUICK_REPLY_EXTENDED && S_QUICK_REPLY %}
+<script>
+var form_name = 'qr_postform';
+$(() => {
+    $('input[name=post]').click((e) => {
+        if (!$('form#qr_postform').find('textarea[name=message]').val().trim().length) {
+			e.preventDefault();
+            return;
+        }
+    });
+});
+</script>
+{% endif %}

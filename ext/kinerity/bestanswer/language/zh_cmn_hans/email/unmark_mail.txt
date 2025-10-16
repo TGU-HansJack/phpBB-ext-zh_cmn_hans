@@ -1,0 +1,10 @@
+Subject: 您的主题回复不再是最优答案
+
+您好,
+
+您在 "{{ SITENAME }}" 论坛中的主题 "{{ TOPIC_TITLE }}" 的回复被 "{{ USERNAME }}" 取消了最佳答案标记。
+
+要查看该帖子，请点击此链接：
+{{ U_LINK_TO_TOPIC }}
+
+{{ EMAIL_SIG }}

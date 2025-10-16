@@ -1,0 +1,15 @@
+Subject: 积分通知 - {{ SITENAME }}
+
+你好 {{ USERNAME }},
+
+{{ USERNAME_WHO }} {{ POINTS_NOTIFY_MSG }}
+
+{{ SITENAME }}
+
+----------------------------
+
+如果您不再希望收到终极积分电子邮件，请点击以下链接：
+{{ U_NOTIFICATION_SETTINGS }}
+
+{{ EMAIL_SIG }}
+
